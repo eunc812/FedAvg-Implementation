@@ -12,15 +12,3 @@ Each client performs local training on its private dataset, and the server aggre
 
 The implementation follows **Algorithm 1** from the original FedAvg paper.
 ![FedAvg Algorithm](FedAvg_Algorithm.jpg)
-
-## Repository Structure
-
-FedAvg-Implementation/
-├── client.py # Local training (LocalUpdate)
-├── server.py # Server-side aggregation (FedAvg)
-├── model.py # Simple linear model
-├── train.py # Federated training (MNIST)
-├── eval.py # Evaluation script
-├── data/ # MNIST dataset (auto-downloaded)
-├── checkpoints/ # Saved model checkpoints
-└── README.md
