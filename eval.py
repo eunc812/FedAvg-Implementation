@@ -2,7 +2,6 @@ import argparse
 import torch
 from torch.utils.data import DataLoader
 from torchvision import datasets, transforms
-
 from model import SimpleNet
 
 
