@@ -12,3 +12,13 @@ Each client performs local training on its private dataset, and the server aggre
 
 The implementation follows **Algorithm 1** from the original FedAvg paper.
 ![FedAvg Algorithm](FedAvg_Algorithm.jpg)
+
+## Training
+python train.py \
+  --rounds 20 \
+  --clients 10 \
+  --local_epochs 1 \
+  --lr 0.1
+
+## Evaluation
+python eval.py --ckpt checkpoints/fedavg_mnist.pt
