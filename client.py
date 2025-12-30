@@ -28,6 +28,7 @@ class Client:
             for x, y in self.dataloader:
                 x, y = x.to(self.device), y.to(self.device)
                 self.optimizer.zero_grad()
+                x = x.view(x.size(0), -1)
                 loss = self.criterion(self.model(x), y)
                 loss.backward()
                 self.optimizer.step()
