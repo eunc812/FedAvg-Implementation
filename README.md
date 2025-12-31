@@ -1,7 +1,7 @@
-# Federated Averaging (FedAvg) Implementation with MNIST
+# Federated Averaging(FedAvg) Implementation 
 
-+ Minimal PyTorch implementation of Federated Averaging (FedAvg) based on the original federated learning framework.  
-+ The code is designed as a baseline for research, and can be easily extended to Over-the-Air Federated Learning (OTA-FL) by modifying only the aggregation module.
++ Minimal PyTorch implementation of Federated Averaging (FedAvg)
++ The code is designed as a baseline for research
 + This implementation is based on the paper [Communication-Efficient Learning of Deep Networks from Decentralized Data](https://arxiv.org/abs/1602.05629).
 + [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
 https://colab.research.google.com/drive/1tG_UWsnBPHpZeKbhBHVkTKeHn6NMpPJ-?usp=sharing
